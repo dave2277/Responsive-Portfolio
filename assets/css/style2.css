@@ -58,8 +58,8 @@ div.background {
 /*Style the about me page in the main section. */
 div.aboutme {
 	float: left;
-	width: 550px;
-	margin-left: 30px;
+	width: 55%;
+	margin-left: 20px;
 	margin-top: 80px;
 	margin-bottom: 40px;
 	padding: 10px;
@@ -72,7 +72,7 @@ div.aboutme p {
 	line-height: 2.0em;
 }
 
-/* Wrap the text around my handsome photo.*/
+/* Wrap the text around my photo.*/
 div.floatleft {
 	float: left;
 	margin: 10px 10px;
@@ -156,7 +156,7 @@ input[type=submit] {
 
 /* Styles for the connect with me box. */
 aside {
-	width: 270px;
+	width: 33%;
 	height: 180px;
 	margin-top: 80px;
 	margin-right: 30px;
@@ -184,7 +184,6 @@ footer {
 	border-top: 10px solid #4aaaa5;
 }
 
-/* Media Query Tags for Responsive Designs */
 
 /* Media Query Tags for Responsive Designs */
 
@@ -200,13 +199,46 @@ footer {
 	}
 
 	.profileimg {
-	width: 85%;
+	width: 90%;
+	height:inherit
+	}
+
+	aside {
+	margin-right: 20px;
+	}
+
+	aside img {
+	width: 25%;
 	height: inherit;
 	}
 }
 
 @media screen and (max-width: 768px) {
 
+	div.aboutme{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: auto;
+	}
+
+	aside {
+	float: none;
+	clear: both;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	width: auto;
+	}
+
+	aside h2 {
+	text-align: left;
+	}
+
+	aside img {
+	width: 12%;
+	height: inherit;
+	margin: 8px
+	}
 
 }
 

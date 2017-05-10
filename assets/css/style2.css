@@ -46,8 +46,8 @@ a {
 	margin: 5px;
 }
 
-/*Set the repeating background pattern anc clearn the floats 
-from the header elements.*/
+/*Set the repeating background pattern and clear the floats 
+from the header elements. */
 div.background {
 	clear: both;
 	background-image: url("escheresque_ste.png");
@@ -55,7 +55,7 @@ div.background {
 	border-top: 3px solid #dddddd;
 }
 
-/*Style the about me page in the main section.*/
+/*Style the about me page in the main section. */
 div.aboutme {
 	float: left;
 	width: 550px;
@@ -73,7 +73,7 @@ div.aboutme p {
 }
 
 /* Wrap the text around my handsome photo.*/
-.floatleft {
+div.floatleft {
 	float: left;
 	margin: 10px 10px;
 }
@@ -183,6 +183,38 @@ footer {
 	text-align: center;
 	border-top: 10px solid #4aaaa5;
 }
+
+/* Media Query Tags for Responsive Designs */
+
+/* Media Query Tags for Responsive Designs */
+
+@media screen and (max-width: 980px) {
+
+
+	div.page {
+ 	width: 90%;	
+	}
+
+	div.aboutme {
+ 	width: 50%
+	}
+
+	.profileimg {
+	width: 85%;
+	height: inherit;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+
+}
+
 
 
 

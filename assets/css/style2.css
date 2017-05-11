@@ -243,7 +243,32 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+	#name {
+	float: none;
+	}
 
+	#nav {
+	float: none;
+	margin: 0;
+	padding: 0;
+	width: 110%
+	}	
+
+	#nav li {
+		width: 90%;
+		margin: 30px;
+	}
+
+	div.aboutme p {
+		clear: both;
+	}
+
+
+	.profileimg {
+		width: 130%
+		height: inherit;
+		margin-left: 20%
+	}
 
 }
 
